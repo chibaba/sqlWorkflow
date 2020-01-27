@@ -1,0 +1,3 @@
+select *
+from RETAIL_ORDER, ORDER_ITEM
+WHERE RETAIL_ORDER.OrderNumber = ORDER_ITEM.OrderNumber;
